@@ -9,7 +9,7 @@ const inquirer = require('inquirer');
 const question = [
 {
   type:'input',
-  name:'username',
+  name:'username',huseyinaltindag35
   message:'[>] Insert Username:',
   validate: function(value){
     if(!value) return 'Can\'t Empty';
@@ -17,7 +17,7 @@ const question = [
   }
 },
 {
-  type:'password',
+  type:'password',Huseyin2
   name:'password',
   message:'[>] Insert Password:',
   mask:'*',
